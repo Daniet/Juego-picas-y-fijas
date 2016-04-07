@@ -1,0 +1,107 @@
+<!doctype html>
+<html class="no-js" lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>Juego picas y fijas</title>
+    <link rel="stylesheet" href="css/foundation.min.css" />
+    <link rel="stylesheet" href="css/app.css" />
+
+  </head>
+  <body>
+    
+    <div class="rows">
+      <header>
+        <div class="small-12 columns">
+          <h1>Juego de picas y fijas</h1>
+        </div>
+      </header>
+      <div class="small-12 medium-10 large-6 medium-offset-1 large-offset-3 columns end">
+        <div class="small-12 medium-6 large-7 columns">
+          <div class="small-12 columns">
+            <input id="numero" type="text" name="numero" maxlength="4" placeholder="Digitar numero" readonly>
+          </div>
+          <div class="small-12 columns control">
+            <div class="small-6 columns">
+              <a class="small-12 columns button">Borrar</a>
+            </div>
+            <div class="small-6 columns">
+              <a class="small-12 columns button">Terminar Juego</a>
+            </div>
+            <div class="small-4 columns">
+              <a id="7" class="small-12 columns button">7</a>
+            </div>
+            <div class="small-4 columns">
+              <a id="8" class="small-12 columns button">8</a>
+            </div>
+            <div class="small-4 columns">
+              <a id="9" class="small-12 columns button">9</a>
+            </div>
+            <div class="small-4 columns">
+              <a id="4" class="small-12 columns button">4</a>
+            </div>
+            <div class="small-4 columns">
+              <a id="5" class="small-12 columns button">5</a>
+            </div>
+            <div class="small-4 columns">
+              <a id="6" class="small-12 columns button">6</a>
+            </div>
+            <div class="small-4 columns">
+              <a id="1" class="small-12 columns button">1</a>
+            </div>
+            <div class="small-4 columns">
+              <a id="2" class="small-12 columns button">2</a>
+            </div>
+            <div class="small-4 columns">
+              <a id="3" class="small-12 columns button">3</a>
+            </div>
+            <div class="small-4 columns">
+              <a id="0" class="small-12 columns button">0</a>
+            </div>
+            <div class="small-8 columns">
+              <a class="small-12 columns button">Adivinar</a>
+            </div>
+          </div>
+        </div>
+        <div class="small-12 medium-6 large-5 columns">
+            <div id="puntaje" class="small-12 columns">
+                <div class="encabezado">
+                    <div class="small-3 columns">
+                        <label>
+                            Intentos
+                        </label>
+                    </div>
+                    <div class="small-3 columns">
+                        <label>
+                            Numero
+                        </label>
+                    </div>
+                    <div class="small-3 columns">
+                        <label>
+                            Picas
+                        </label>
+                    </div>
+                    <div class="small-3 columns">
+                        <label>
+                            Fijas
+                        </label>
+                    </div>
+                </div>
+                <div class="historico small-12 columns">
+                    <div></div>
+                </div>                
+                <div class="fin"></div>
+            </div>
+        </div>
+      </div>
+    </div>
+    
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/what-input.min.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script src="js/app.js"></script>
+    
+  </body>
+</html>

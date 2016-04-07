@@ -1,0 +1,53 @@
+h1, input{
+	text-align: center;
+}
+
+h1{
+    text-transform: uppercase;
+    color: #1583cc;
+    text-shadow: 2px 2px 5px #000;
+}
+
+[type='text']{
+	font-size: 2.3rem;
+	height: 5.3rem;
+    border: 0px;
+    text-shadow: 0px 0px 5px #999;
+    color: #fff;
+}
+
+thead th, thead td, tfoot th, tfoot td{
+	text-align: center;
+	background: #000;
+	color: #fff;
+}
+
+.button{
+	margin: 0.1rem;
+    text-shadow: 0px 0px 10px #000;
+}
+
+.columns{
+	padding-left: 0.2em;
+	padding-right: 0.2em;
+}
+
+#puntaje{
+    height: 19.9rem;
+}
+
+#puntaje div{
+    color: #fff;
+    background:  #1583cc;
+    text-align: center;
+}
+
+#puntaje .encabezado label{
+    color: #fff;
+}
+
+#puntaje .historico{
+    overflow-y: hidden;
+    background:  rgba( 0, 1, 255, 0.1);
+    height: 18.2rem;
+}
